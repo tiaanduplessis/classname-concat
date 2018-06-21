@@ -1,0 +1,47 @@
+{
+  "name": "classname-concat",
+  "version": "1.0.0",
+  "description": "Flexible classname concatenating",
+  "source": "src/index.js",
+  "main": "dist/classname-concat.js",
+  "module": "dist/classname-concat.m.js",
+  "browser": "dist/classname-concat.umd.js",
+  "repository": "https://github.com/tiaanduplessis/classname-concat",
+  "author": "Tiaan du Plessis",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "lint": "standard --fix",
+    "build": "microbundle",
+    "coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.1.0",
+    "microbundle": "^0.4.4",
+    "standard": "^11.0.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "classnames",
+    "concat",
+    "concatenating",
+    "strings",
+    "flexible"
+  ],
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "standard": {
+    "ignore": [
+      "dist"
+    ],
+    "env": {
+      "jest": true
+    }
+  }
+}
